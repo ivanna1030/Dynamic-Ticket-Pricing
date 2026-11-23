@@ -1,0 +1,77 @@
+{
+  "semilla_evaluacion": 2,
+  "n_evaluacion": 1000,
+  "parametros_politicas": {
+    "base": {
+      "p_fijo": 120.0
+    },
+    "pfa": {
+      "p_base": 120.0,
+      "a": 225.0
+    },
+    "dla": {
+      "beta": 1.0
+    }
+  },
+  "resumen": {
+    "Base": {
+      "ingreso_medio": 220655.4,
+      "desviacion": 5405.1199951677445,
+      "error_estandar": 170.92490211248378,
+      "ic_inf": 220320.3933477985,
+      "ic_sup": 220990.4066522015,
+      "p5": 212280.0,
+      "p95": 228840.0,
+      "prob_agotar": 0.011,
+      "vendidos_medio": 1838.795
+    },
+    "PFA": {
+      "ingreso_medio": 228743.83,
+      "desviacion": 4483.375077236254,
+      "error_estandar": 141.77676848899887,
+      "ic_inf": 228465.9526399171,
+      "ic_sup": 229021.7073600829,
+      "p5": 219783.0,
+      "p95": 235390.5,
+      "prob_agotar": 0.734,
+      "vendidos_medio": 1990.566
+    },
+    "DLA": {
+      "ingreso_medio": 229334.75,
+      "desviacion": 3801.595410504012,
+      "error_estandar": 120.21700239635476,
+      "ic_inf": 229099.12900497377,
+      "ic_sup": 229570.37099502623,
+      "p5": 222749.5,
+      "p95": 235401.5,
+      "prob_agotar": 0.152,
+      "vendidos_medio": 1984.618
+    }
+  },
+  "diferencias_pareadas": {
+    "PFA-Base": {
+      "dif_media": 8088.43,
+      "error_estandar": 90.5487012739686,
+      "ic_inf": 7910.957806656145,
+      "ic_sup": 8265.902193343854,
+      "mejora_%": 3.665638819625534,
+      "prop_escenarios_A_gana": 0.982
+    },
+    "DLA-Base": {
+      "dif_media": 8679.35,
+      "error_estandar": 81.7675106830537,
+      "ic_inf": 8519.08862395572,
+      "ic_sup": 8839.61137604428,
+      "mejora_%": 3.9334410125471666,
+      "prop_escenarios_A_gana": 0.985
+    },
+    "DLA-PFA": {
+      "dif_media": 590.92,
+      "error_estandar": 76.50872459098073,
+      "ic_inf": 440.9656552985838,
+      "ic_sup": 740.8743447014161,
+      "mejora_%": 0.2583326509834167,
+      "prop_escenarios_A_gana": 0.556
+    }
+  }
+}

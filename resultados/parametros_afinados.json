@@ -12,10 +12,10 @@
     "beta": 1.0
   },
   "validacion_dla": {
-    "mismo_precio_hoy": 0.89,
-    "brecha_media_%": 0.13865185627482762,
-    "brecha_max_%": 1.9753110015989723,
-    "seg_milp": 0.44017911195755005,
-    "seg_lagrangiano": 0.005437667369842529
+    "mismo_precio_hoy": 0.88,
+    "brecha_media_%": 0.13873318857210346,
+    "brecha_max_%": 1.9753110015990227,
+    "seg_milp": 0.08323031902313233,
+    "seg_lagrangiano": 0.00046778440475463867
   }
 }
