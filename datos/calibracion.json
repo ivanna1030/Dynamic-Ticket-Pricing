@@ -1,0 +1,17 @@
+{
+  "forma_llegadas": "potencia",
+  "b_llegadas": 0.6039656199823294,
+  "b_potencia": 0.6039656199823294,
+  "b_error_estandar_potencia": 0.01536242350449763,
+  "r2_potencia": 0.9416362150014163,
+  "b_exponencial": 0.040180188368974315,
+  "b_error_estandar_exponencial": 0.00281738185099196,
+  "r2_exponencial": 0.71356370824022,
+  "dias_con_datos": 59,
+  "observaciones": 1516655,
+  "rutas": [
+    "LAX-JFK",
+    "JFK-LAX",
+    "ATL-LGA"
+  ]
+}

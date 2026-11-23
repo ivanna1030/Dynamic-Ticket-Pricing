@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Proyecto ---
+# Dataset de Kaggle (31 GB): NUNCA subirlo
+itineraries.csv
+*.csv.zip
+# Muestra extraída por calibracion.py (grande); sí se suben curva_llegadas.csv, calibracion.json y la gráfica
+datos/muestra_rutas.csv

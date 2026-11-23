@@ -1,0 +1,21 @@
+{
+  "semilla_afinacion": 1,
+  "n_afinacion": 300,
+  "base": {
+    "p_fijo": 120.0
+  },
+  "pfa": {
+    "p_base": 120.0,
+    "a": 225.0
+  },
+  "dla": {
+    "beta": 1.0
+  },
+  "validacion_dla": {
+    "mismo_precio_hoy": 0.89,
+    "brecha_media_%": 0.13865185627482762,
+    "brecha_max_%": 1.9753110015989723,
+    "seg_milp": 0.44017911195755005,
+    "seg_lagrangiano": 0.005437667369842529
+  }
+}
